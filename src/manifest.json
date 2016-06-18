@@ -1,0 +1,1 @@
+{	"manifest_version" : 2,	"name" : "fabrica de noobs",	"version" : "1.0",	"description" : "extensão do fabrica de noobs ~ kodo no kami",	"browser_action" : {		"default_icon" : "icone.jpg",		"default_popup" : "index.html"	},	"permissions" : ["tabs","https://youtube.com/"]}
