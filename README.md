@@ -1,0 +1,1 @@
+# fabricanoob_chromeext
