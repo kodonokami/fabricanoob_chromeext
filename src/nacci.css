@@ -1,0 +1,332 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+
+body {
+    background-color: #E6E6E6;
+    font-family: 'Raleway', Arial, sans-serif;
+    
+    align-content: center;
+    text-align: center;
+    
+    width: 550px;
+    height: 200px;
+    
+    max-width: 400px;
+    max-height: 200px;
+    
+    padding: 10px;
+    
+    background-image: url(bg2.png);
+}
+
+.h1d {
+    left: 50%;
+    padding-bottom: 10px;
+}
+
+h1d h1 {
+    color: whitesmoke;
+}
+
+.preserve-3d {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.teste {
+  width: 50%;
+  float: left;
+    
+    align-content: center;
+    text-align: center;
+}
+
+.teste_right {
+     margin-left: 50%;
+    
+    align-content: center;
+    text-align: center;
+}
+
+.button_img {
+    padding-right: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.button_img:hover {
+    cursor: pointer;
+}
+
+.bottom {
+     position: absolute;
+    bottom: 0;
+left:0;
+right:0;
+    
+    height: 30px;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    text-align: center;
+    align-content: center;
+    
+    background-color: #F6F6F6;
+}
+
+.bottom a {
+    font-size: 18px;
+    color: #3E4444;
+    
+    text-align: center;
+    align-content: center;
+    
+    position: absolute;
+    
+    bottom: 5;
+left:0;
+right:0;
+}
+
+.botton a:hover {
+   color: #916BB2;
+}
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+
+    width: 200px;
+    height: 50px;
+    text-align: center;
+ 
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base:hover {
+
+}
+
+.b03_skewed_slide_in {
+    overflow: hidden;
+}
+
+.b03_skewed_slide_in div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 11px;
+}
+
+.b03_skewed_slide_in div:nth-child(1) {
+    color: whitesmoke;
+    background-color: #D42A2A;
+}
+
+.b03_skewed_slide_in div:nth-child(2) {
+    background-color: #B51010;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.btn_forum {
+    overflow: hidden;
+}
+
+.btn_forum div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 11px;
+}
+
+.btn_forum div:nth-child(1) {
+    color: whitesmoke;
+    background-color: #AE36E2;
+}
+
+.btn_forum div:nth-child(2) {
+    background-color: #A21FDA;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.btn_forum div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.btn_forum:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.btn_forum:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.btn_website {
+    overflow: hidden;
+}
+
+.btn_website div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 11px;
+}
+
+.btn_website div:nth-child(1) {
+    color: whitesmoke;
+    background-color: #E8A94C;
+}
+
+.btn_website div:nth-child(2) {
+    background-color: #D5922E;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.btn_website div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.btn_website:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.btn_website:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.btn_twitter {
+    overflow: hidden;
+}
+
+.btn_twitter div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 11px;
+}
+
+.btn_twitter div:nth-child(1) {
+    color: whitesmoke;
+    background-color: #59D1DE;
+}
+
+.btn_twitter div:nth-child(2) {
+    background-color: #3AC2D1;
+    color: whitesmoke; !important
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.btn_twitter div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.btn_twitter:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.btn_website:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}

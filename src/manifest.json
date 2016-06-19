@@ -1,1 +1,11 @@
-{	"manifest_version" : 2,	"name" : "fabrica de noobs",	"version" : "1.0",	"description" : "extensão do fabrica de noobs ~ kodo no kami",	"browser_action" : {		"default_icon" : "icone.jpg",		"default_popup" : "index.html"	},	"permissions" : ["tabs","https://youtube.com/"]}
+{
+	"manifest_version" : 2,
+	"name" : "Fábrica de Noobs",
+	"version" : "1.0",
+	"description" : "Extensão do Chrome da Fábrica de Noobs ~ Por Kodo no Kami e naccib!",
+	"browser_action" : {
+		"default_icon" : "icone.jpg",
+		"default_popup" : "index.html"
+	}
+	
+}
