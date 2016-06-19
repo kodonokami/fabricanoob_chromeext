@@ -2,9 +2,12 @@
 	"manifest_version" : 2,
 	"name" : "Fábrica de Noobs",
 	"version" : "1.0",
+	"icons": {
+    "48" : "icone48.png"
+  },
 	"description" : "Extensão do Chrome da Fábrica de Noobs ~ Por Kodo no Kami e naccib!",
 	"browser_action" : {
-		"default_icon" : "icone.jpg",
+		"default_icon" : "icone.png",
 		"default_popup" : "index.html"
 	}
 	
