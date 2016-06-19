@@ -1,3 +1,6 @@
+# thanks ^^
+naccib, Nanfenkoff
+
 # instalação da extensão do fabrica de noobs
 
 do lado tem um botao verde escrito clone or download, depois aperte no Download ZIP
