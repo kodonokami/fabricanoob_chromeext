@@ -324,7 +324,7 @@ right:0;
     -moz-transform: translate(-15px, 0px) skewX(-30deg);
 }
 
-.btn_website:hover div:nth-child(3) {
+.btn_twitter:hover div:nth-child(3) {
     left: 0px;
     transition: left 0.30000000000000004s ease;
     -webkit-transition: left 0.30000000000000004s ease;
