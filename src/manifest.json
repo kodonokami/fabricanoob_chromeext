@@ -1,7 +1,7 @@
 {
 	"manifest_version" : 2,
 	"name" : "Fábrica de Noobs",
-	"version" : "1.0.1",
+	"version" : "1.2",
 	"icons": {
     "48" : "icone48.png"
   },
@@ -9,6 +9,6 @@
 	"browser_action" : {
 		"default_icon" : "icone.png",
 		"default_popup" : "index.html"
-	}
-	
+	},
+	"permissions" : ["https://www.youtube.com/"]
 }
