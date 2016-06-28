@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	window.open("https://twitter.com/_natanael666","","");
   });
   
-  
+  document.getElementById("kododiscord").addEventListener("click", function(){
+	window.open("https://discordapp.com/invite/KHd5UAA","","");
+  });
   
   fbnoobs_req = new XMLHttpRequest();
 	fbnoobs_req.open("GET","https://www.youtube.com/channel/UCGObNjkNjo1OUPLlm8BTb3A/videos",false);
