@@ -297,7 +297,7 @@ right:0;
 
 .btn_twitter div:nth-child(2) {
     background-color: #3AC2D1;
-    color: whitesmoke; !important
+    color: whitesmoke !important;
     width: 230px;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
