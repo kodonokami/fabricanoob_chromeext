@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   document.getElementById("kodosite").addEventListener("click", function(){
-	window.open("http://fabricadenoobs.wix.com/home","","");
+	window.open("http://www.fabricadenoobs.com.br","","");
   });
     
   document.getElementById("kodotwitter").addEventListener("click", function(){
