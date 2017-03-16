@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 		
 		
-		document.getElementById("videos").innerHTML = document.getElementById("videos").innerHTML + "<a src=https://www.youtube.com/watch?v=" + link + "<br>";
+		document.getElementById("videos").innerHTML = document.getElementById("videos").innerHTML + "<a target=_blank href=https://www.youtube.com/" + link + "<br>";
 		kcont++;
 	}
   
