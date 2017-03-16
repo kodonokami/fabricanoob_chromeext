@@ -50,7 +50,7 @@ Como eu disse, a extensão está bem simples ainda.
 
 #Creditos aos membros
 
-Nanfenkoff , ChosenOne
+Nanfenkoff , ChosenOne, fabioventao
 
 #Como Ajudar
 
